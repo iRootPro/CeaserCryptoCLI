@@ -34,3 +34,4 @@ node index --action decode --shift 7 --input decoded.txt --output plain.txt
 >
 > output.txt `Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!`
 
+Task 1. Node JS RS School
