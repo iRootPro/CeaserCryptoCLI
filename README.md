@@ -16,6 +16,8 @@ This tool using only english alphabet with case-sensetive letters.
 -a, --action: an action encode/decode. REQUIRED option
 ```
 
+Show all options use: ```node index.js --help```
+
 ### How to use?
 
 ```

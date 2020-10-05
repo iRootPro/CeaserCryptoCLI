@@ -21,6 +21,7 @@ const validArgs = () => {
     }
     if (!programOpts.action) {
         console.error('Action argument must be required, --action')
+        return process.exit(1)
     }
     if (programOpts.input) {
         fs.access(programOpts.input, fs.constants.F_OK, err => {
@@ -38,7 +39,7 @@ const validArgs = () => {
             }
         })
     }
-    if (isNaN(programOpts.shift) || !Number.isInteger(+programOpts)) {
+    if (isNaN(programOpts.shift) || !Number.isInteger(+programOpts.shift)) {
         console.error('Shift is invalid. Shift must be integer number')
         process.exit(1)
     }
